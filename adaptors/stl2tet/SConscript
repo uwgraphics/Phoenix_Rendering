@@ -1,0 +1,8 @@
+# SConscript
+
+Import('env Automatic_Program')
+Automatic_Program(env,"stl2tet",[
+        "main.cpp",
+        "tetgen.cpp",
+        "predicates.cpp"
+        ])
